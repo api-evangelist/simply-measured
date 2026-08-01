@@ -1,8 +1,24 @@
 aid: simply-measured
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simply-measured.png
 name: Simply Measured
-description: 'Simply Measured is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: analytics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Simply Measured was a Seattle-based social media analytics and reporting platform, founded
+  in 2010 and backed by Trinity Ventures, that measured brand performance across Twitter, Facebook,
+  Instagram, YouTube, LinkedIn and other social channels. It was acquired by Sprout Social in December
+  2017 and its product, brand, and developer surface were sunset and folded into Sprout Social. The
+  simplymeasured.com domain now 301-redirects to sproutsocial.com and no independent Simply Measured
+  API, developer portal, or documentation remains online. This record is retained as a defunct/acquired
+  portfolio-lead marker; there is no live API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/simply-measured/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,29 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: sprout-social
+x-acquired-year: 2017
+x-website-redirect: https://sproutsocial.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Analytics
+- Social Media
+- Social Analytics
+- Marketing
+- Reporting
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
